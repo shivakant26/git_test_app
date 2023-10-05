@@ -51,3 +51,20 @@
 
    now succussfully push your code on repo
 
+9. now create a new branch on git
+    git branch name-of-branch
+
+    to check all branch using following commad
+    for checking local 
+    git branch
+
+    for checking remote all branch
+    git branch -a
+
+    for create a branch and checkout branch
+    git checkout -b monu_dev
+
+10. Switching one branch to another branch
+    git checkout branchname
+
+11. 
