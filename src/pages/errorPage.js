@@ -1,7 +1,7 @@
 const ErrorPage = () => {
   return (
     <div>
-      <h1>404 Not found</h1>
+      <h1>404 Not found any page</h1>
     </div>
   );
 };
