@@ -12,19 +12,19 @@
     git add .
 
     Note :- some file are not needed to be added in git repo like as .<br>
-    /node-module
+    /node-module <br>
     /package-lock.json
 
 4. if some file are move from stagging so use below command.<br>
-   git reset filename
+   git reset filename<br>
    example:- git reset package-lock.json
 
 5. before pushing code you need to check first user and its email.<br>
-    git config user.name
+    git config user.name<br>
     git config user.email
 
     if user name not set or set another user you need to set them.<br>
-    git config user.name "name of user"
+    git config user.name "name of user"<br>
     git config user.email "email of user"
 
 6. now you make your commit.<br>
@@ -46,7 +46,7 @@
    git push -u origin branch-name 
 
    here git ask login credetial so you have two option .<br>
-   8.1 token base authentication
+   8.1 token base authentication<br>
    8.2 ssh key base authentication
 
    now succussfully push your code on repo.<br>
@@ -72,3 +72,16 @@
 
 12. git related information you use.<br>
     git log
+
+13. when you take immidate pull from any branch and you won't lost your last commited or unstage
+    code you just keep to need to put your code in temparary storage . you use following git 
+    git command<br>
+    git stash<br>
+
+    checking list of stash<br>
+    git stash list<br>
+
+    after taking pull and resolve conflict if there you wants to show you commited changes<br>
+    git stash apply
+
+
